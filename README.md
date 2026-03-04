@@ -9,6 +9,8 @@ The Python script analyzes authentication logs and identifies suspicious login a
 
 ## Findings
 
+The detection logic flags any IP address with five or more failed authentication attempts as a potential brute force source.
+
 Two IP addresses exceeded the brute force detection threshold.
 
 192.168.1.15 — 6 failed login attempts  
